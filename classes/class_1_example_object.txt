@@ -1,0 +1,14 @@
+Object: Josh
+
+name: "Josh"
+jobTitle: "Manager"
+salaryPerHour: 14.50
+dateHired 01/10/2019
+responsibilities: ["payroll", "hire", "fire"]
+currentEmployee: true
+
+Results of methods:
+giveRaise (increase salaryPerHour to 16.00)
+fireEmployee (changes currentEmployee to false)
+addResponsibility (changes responsibilities array to ["payroll", "hire", "fire", "new responsibility"])
+changeTitle (modifies to jobTitle string to "Waiter")
