@@ -8,7 +8,7 @@ responsibilities: ["payroll", "hire", "fire"]
 currentEmployee: true
 
 Results of methods:
-giveRaise (increase salaryPerHour to 16.00)
-fireEmployee (changes currentEmployee to false)
-addResponsibility (changes responsibilities array to ["payroll", "hire", "fire", "new responsibility"])
-changeTitle (modifies to jobTitle string to "Waiter")
+giveRaise: (increase salaryPerHour to 16.00)
+fireEmployee: (changes currentEmployee to false)
+addResponsibility: (changes responsibilities array to ["payroll", "hire", "fire", "new responsibility"])
+changeTitle: (modifies to jobTitle string to "Waiter")
