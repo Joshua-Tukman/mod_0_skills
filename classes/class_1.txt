@@ -1,0 +1,15 @@
+Class: Employee
+
+Attributes:
+name (string)
+jobTitle (string)
+salaryPerHour (float)
+dateHired (datetime)
+responsibilities (array)
+currentEmployee (boolean)
+
+Methods:
+giveRaise (Give employee more money. This method increases salaryPerHour attribute by 1.5)
+fireEmployee (changes currentEmployee attribute from true to false)
+addResponsibility (adds element to the end of responsibilities array)
+changeTitle (makes change to jobTitle attribute)
