@@ -1,0 +1,15 @@
+Class: Cooking machine
+
+Attributes:
+length (integer)
+width (integer)
+menuItemsUsedFor (array)
+nameOfEquipment (string)
+requiresGas (boolean)
+operational (boolean)
+
+Methods:
+fixMachine (changes operational attribute from false to true)
+calculateFloorSpace (multiplies width and length attributes)
+addToInventory (adds nameOfEquipment to inventory array)
+addMenuItem (adds menu item to end of menuItemsUsedFor array)

@@ -1,0 +1,16 @@
+Object: Oven
+
+Attributes:
+length: 4
+width: 3
+menuItemsUsedFor: ["lasagna", "casserole", "steak"]
+nameOfEquipment: "Corning"
+requiresGas: true
+operational: false
+
+Result of Methods:
+
+fixMachine (changes operational attribute from false to true)
+calculateFloorSpace (12)
+addToInventory (adds "Corning" to inventory array)
+addMenuItem (changes menuItemsUsedFor to ["lasagna", "casserole", "steak", "new item"])
