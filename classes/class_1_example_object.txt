@@ -3,7 +3,7 @@ Object: Josh
 name: "Josh"
 jobTitle: "Manager"
 salaryPerHour: 14.50
-dateHired 01/10/2019
+dateHired: 01/10/2019
 responsibilities: ["payroll", "hire", "fire"]
 currentEmployee: true
 
