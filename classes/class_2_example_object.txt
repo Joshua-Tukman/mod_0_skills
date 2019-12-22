@@ -8,9 +8,9 @@ nameOfEquipment: "Corning"
 requiresGas: true
 operational: false
 purchasePrice: 2000
-expectedUsefulLife 10
-salvageValue 200
-bookValue 1820
+expectedUsefulLife: 10
+salvageValue: 200
+bookValue: 1820
 
 
 
