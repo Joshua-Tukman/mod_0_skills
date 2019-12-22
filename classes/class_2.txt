@@ -7,9 +7,13 @@ menuItemsUsedFor (array)
 nameOfEquipment (string)
 requiresGas (boolean)
 operational (boolean)
+purchasePrice (integer)
+expectedUsefulLife (integer)
+salvageValue (integer)
+bookValue (integer)
 
 Methods:
 fixMachine (changes operational attribute from false to true)
 calculateFloorSpace (multiplies width and length attributes)
-addToInventory (adds nameOfEquipment to inventory array)
+calculateDepriciation (purchasePrice - salvageValue)/expectedUsefulLife
 addMenuItem (adds menu item to end of menuItemsUsedFor array)
