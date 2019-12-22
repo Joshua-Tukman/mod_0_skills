@@ -7,10 +7,16 @@ menuItemsUsedFor: ["lasagna", "casserole", "steak"]
 nameOfEquipment: "Corning"
 requiresGas: true
 operational: false
+purchasePrice: 2000
+expectedUsefulLife 10
+salvageValue 200
+bookValue 1820
+
+
 
 Result of Methods:
 
 fixMachine (changes operational attribute from false to true)
 calculateFloorSpace (12)
-addToInventory (adds "Corning" to inventory array)
+calculateDepriciation (purchasePrice - salvageValue)/expectedUsefulLife = 180 
 addMenuItem (changes menuItemsUsedFor to ["lasagna", "casserole", "steak", "new item"])
